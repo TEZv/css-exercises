@@ -4,18 +4,18 @@
     --lightgreen-color: #43ff43;
 }
 
-p {
+.odd {
     background-color: var(--lightpink-color);
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
-#number-two {
+#two {
     color: var(--lightblue-color);
     font-size: 36px;
 }
-.number-three {
+.three {
     font-size: 24px;
 }
-#number-four {
+#four {
     background-color: var(--lightgreen-color);
     font-size: 24px;
     font-weight: bold;
