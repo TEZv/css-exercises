@@ -3,17 +3,16 @@
     --lightblue-color: #58dcfd;
     --lightgreen-color: #43ff43;
 }
-html {
-    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
-}
-p {
+
+.odd {
     background-color: var(--lightpink-color);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 #number-two {
     color: var(--lightblue-color);
     font-size: 36px;
 }
-.number-three {
+.three {
     font-size: 24px;
 }
 #number-four {
