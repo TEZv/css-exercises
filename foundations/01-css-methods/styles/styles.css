@@ -1,6 +1,11 @@
+:root {
+    --red-color: red;
+    --white-color: white;
+}
+
 div {
-    background-color: red;
-    color: white;
+    background-color: var(--red-color);
+    color: var(--white-color);
     font-size: 32px;
     text-align: center;
     font-weight: bold;

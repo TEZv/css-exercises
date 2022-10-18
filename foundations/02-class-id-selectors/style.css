@@ -1,0 +1,7 @@
+:root {
+    --lightpink-color:#ffabe3;
+}
+
+p {
+    background-color: var(--lightpink-color);
+}
