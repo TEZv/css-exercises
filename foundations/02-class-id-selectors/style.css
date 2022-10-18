@@ -1,0 +1,21 @@
+:root {
+    --lightpink-color:#ffabe3;
+    --lightblue-color: #58dcfd;
+    --lightgreen-color: #43ff43;
+}
+
+.odd {
+    background-color: var(--lightpink-color);
+}
+#number-two {
+    color: var(--lightblue-color);
+    font-size: 36px;
+}
+.three {
+    font-size: 24px;
+}
+#number-four {
+    background-color: var(--lightgreen-color);
+    font-size: 24px;
+    font-weight: bold;
+}
