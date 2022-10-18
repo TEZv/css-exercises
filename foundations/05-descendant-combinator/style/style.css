@@ -3,10 +3,33 @@
     --red-color: #ff1515;
 }
 
-.container .text {
+/*.container .text {
+    background-color: var(--yellow-color);
+    color: var(--red-color);
+    font-size: 20px;
+    text-align: center;
+}*/
+
+/*div .text {
+    background-color: var(--yellow-color);
+    color: var(--red-color);
+    font-size: 20px;
+    text-align: center;
+}*/
+
+/*div p {
+    background-color: var(--yellow-color);
+    color: var(--red-color);
+    font-size: 20px;
+    text-align: center;
+}*/
+
+.container p {
     background-color: var(--yellow-color);
     color: var(--red-color);
     font-size: 20px;
     text-align: center;
 }
+
+
 
