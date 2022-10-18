@@ -22,7 +22,7 @@ body{
   font-weight: 800;
 }
 
-.confirm {
+#confirm-button {
   background: var(--green-color);
   color: var(--white-a-color);
   font-weight: bold;
@@ -34,13 +34,13 @@ body{
   font-size: 20px;
 }
 
-.child {
+.text.child {
   color: var(--black-b-color);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
+.text {
   color: var(--black-b-color);
   font-size: 22px;
   font-weight: 100;
