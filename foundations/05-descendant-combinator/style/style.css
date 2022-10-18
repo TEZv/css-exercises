@@ -1,0 +1,12 @@
+:root {
+    --yellow-color: rgb(255, 255, 36);
+    --red-color: #ff1515;
+}
+
+.container .text {
+    background-color: var(--yellow-color);
+    color: var(--red-color);
+    font-size: 20px;
+    text-align: center;
+}
+
