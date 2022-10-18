@@ -3,7 +3,9 @@
     --lightblue-color: #58dcfd;
     --lightgreen-color: #43ff43;
 }
-
+html {
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
 p {
     background-color: var(--lightpink-color);
 }
