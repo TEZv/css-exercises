@@ -54,3 +54,10 @@ ul {
   padding: 0px;
   gap: 16px;
 }
+
+.right-corner,
+.left-corner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
