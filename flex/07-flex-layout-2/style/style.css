@@ -17,17 +17,16 @@ body {
   font-weight: 900;
 }
 
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-}
-
-.out-sidebar {
+.parent-container {
   display: flex;
   flex: 1;
 }
 
+.child-container {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
 .sidebar {
   width: 300px;
   background: royalblue;
@@ -37,10 +36,34 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
